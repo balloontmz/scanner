@@ -1,0 +1,1833 @@
+body,
+html {
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f5;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.personal {
+  margin-top: 20px;
+  min-width: 1300px;
+}
+
+.personal .take-bottom {
+  padding: 20px;
+  text-align: right;
+}
+
+.personal .personal-left {
+  display: inline-block;
+  text-align: left;
+  margin-left: 88px;
+  margin-right: 8px;
+  width: 170px;
+  min-height: 431px;
+  background: white;
+  vertical-align: top;
+}
+
+.personal .personal-left li {
+  list-style: none;
+  font-size: 14px;
+  color: #555;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.personal .personal-left .log-out {
+  width: 50%;
+  margin: 10px auto;
+  border-top: 1px solid #FFF3F4F5;
+  padding: 10px;
+}
+
+.personal .personal-left a {
+  color: black;
+  text-decoration: none;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+.personal .personal-left .line {
+  width: 78px;
+  height: 1px;
+  background-color: #F3F4F5;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.personal .personal-left .router-link-active li {
+  color: #0a9ade;
+  border-left: 5px solid #0a9ade;
+}
+
+.personal .personal-right {
+  background: #fff;
+  display: inline-block;
+  width: 986px;
+  min-height: 805px;
+  padding: 14px 14px 26px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: visible;
+  font-size: 0;
+}
+
+.personal .personal-right .personal-right-top {
+  vertical-align: top;
+  display: inline-block;
+  background: url(/images/blue.jpg?9621f0d045acf06f6937bc4f9512b9a7) no-repeat;
+  width: 399px;
+  min-height: 216px;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 32px 10px 104px 29px;
+  vertical-align: top;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-font {
+  display: inline-block;
+  margin-top: 48px;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-font .user {
+  width: 93px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fefefe;
+  line-height: 42px;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-font .change {
+  width: 80px;
+  min-height: 13px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fefefe;
+  line-height: 42px;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-font .welcome {
+  width: 149px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fefefe;
+}
+
+.personal .personal-right .personal-right-top .personal-right-top-font .customer-id {
+  margin-top: 40px;
+  width: 140px;
+  min-height: 27px;
+  background: #019ae0;
+  border: 1px solid white;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fefefe;
+}
+
+.personal .personal-right .suggust {
+  width: 558px;
+  display: inline-block;
+  min-height: 216px;
+  padding: 37px 0 0 57px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #555;
+  font-size: 14px;
+  overflow: hidden;
+  border: 1px solid #f3f4f5;
+}
+
+.personal .personal-right .suggust .suggust-top {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.personal .personal-right .suggust .suggust-top span {
+  font-weight: 300;
+  color: #555555;
+}
+
+.personal .personal-right .suggust .suggust-middle,
+.personal .personal-right .suggust .suggust-bottom {
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 32px;
+}
+
+.personal .personal-right .suggust .suggust-middle label,
+.personal .personal-right .suggust .suggust-bottom label {
+  width: 65px;
+  display: inline-block;
+}
+
+.personal .personal-right .personal-middle {
+  height: 108px;
+  border: 1px solid #f3f4f5;
+  margin-top: 10px;
+  padding: 24px 0 27px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right .personal-middle p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.personal .personal-right .personal-middle .middle-pay,
+.personal .personal-right .personal-middle .middle-deliver,
+.personal .personal-right .personal-middle .middle-message,
+.personal .personal-right .personal-middle .middle-time {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.personal .personal-right .personal-middle .middle-pay img,
+.personal .personal-right .personal-middle .middle-deliver img,
+.personal .personal-right .personal-middle .middle-message img,
+.personal .personal-right .personal-middle .middle-time img {
+  width: 40px;
+  height: 40px;
+}
+
+.personal .personal-right .personal-order {
+  height: 42px;
+  background: #f0f7ff;
+  margin-top: 28px;
+  line-height: 42px;
+  padding-left: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right .personal-order .order-new {
+  width: 67px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  display: inline-block;
+}
+
+.personal .personal-right .personal-order .order-more {
+  width: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  float: right;
+  margin-right: 10px;
+  color: #333333;
+}
+
+.personal .personal-right .personal-message {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 27px 0 24px;
+  overflow: visible;
+  width: 957px;
+  height: 138px;
+  border: 1px solid #f0f7ff;
+}
+
+.personal .personal-right .personal-message .messgae-photo {
+  vertical-align: top;
+  display: inline-block;
+  width: 71px;
+  height: 71px;
+  margin: 33px 100px 34px 0px;
+}
+
+.personal .personal-right .personal-message .messgae-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right .personal-message .message-suggest {
+  margin-left: 20px;
+  padding-top: 58px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  width: 85px;
+}
+
+.personal .personal-right .personal-message .message-suggest p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.personal .personal-right .personal-message .message-data {
+  vertical-align: top;
+  display: inline-block;
+  margin: 60px 0 0 110px;
+}
+
+.personal .personal-right .personal-message .message-data span {
+  width: 111px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 20px;
+}
+
+.personal .personal-right .personal-message .message-price {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 160px;
+  padding-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right .personal-message .message-price p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .personal-right .personal-message .message-system {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 59px 0 0 100px;
+}
+
+.personal .personal-right .personal-message .message-system .message-system-cancel {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .personal-right .personal-message .message-system a {
+  font-size: 12px;
+  font-weight: 300;
+  color: #0a9ade;
+  display: block;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.personal .personal-right .personal-bottom {
+  height: 162px;
+  width: 957px;
+  border: 1px solid #f0f7ff;
+}
+
+.personal .personal-right .personal-bottom .bottom-img {
+  vertical-align: top;
+  display: inline-block;
+  width: 71px;
+  height: 71px;
+  margin: 34px 0 2px 24px;
+}
+
+.personal .personal-right .personal-bottom .bottom-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right .personal-bottom .bottom-font p {
+  width: 114px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  padding-left: 7px;
+}
+
+.personal .personal-right .personal-bottom .bottom-font .bottom-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555555;
+  line-height: 22px;
+  text-align: center;
+}
+
+.personal .personal-right-order {
+  display: inline-block;
+  width: 986px;
+  min-height: 805px;
+  padding: 0px 14px 26px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: visible;
+  font-size: 0;
+}
+
+.personal .personal-right-order button {
+  cursor: pointer;
+}
+
+.personal .personal-right-order .myOrder {
+  max-width: 986px;
+  height: 50px;
+  background: #fff;
+}
+
+.personal .personal-right-order .myOrder p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 50px;
+  margin: 0 20px;
+}
+
+.personal .personal-right-order .allOrder {
+  min-height: 2208px;
+  background: #fff;
+}
+
+.personal .personal-right-order .allOrder .orders {
+  margin-top: 15px;
+  min-height: 80px;
+  background: #fff;
+  padding: 28px 20px 0 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-order .allOrder li {
+  display: inline-block;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 21px;
+  cursor: pointer;
+}
+
+.personal .personal-right-order .allOrder .order-line::after {
+  content: '';
+  height: 100%;
+  margin-left: 15px;
+  border-right: 1px solid #e9ebef;
+  width: 1px;
+}
+
+.personal .personal-right-order .allOrder .changeColor {
+  color: #0a9ade;
+}
+
+.personal .personal-right-order .allOrder .allOrder-input {
+  margin-left: 135px;
+}
+
+.personal .personal-right-order .allOrder .allOrder-input .allOrder-length {
+  width: 132px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #dadbde;
+}
+
+.personal .personal-right-order .allOrder .allOrder-input .el-input-group > .el-input__inner {
+  width: 280px;
+}
+
+.personal .personal-right-order .allOrder .myorder-id {
+  min-height: 54px;
+  margin: 0 14px 0 15px;
+  background: #f0f7ff;
+}
+
+.personal .personal-right-order .allOrder .myorder-id .myorder-id-number {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  padding: 19px 0 21px 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+}
+
+.personal .personal-right-order .allOrder .myorder-id .myorder-id-data {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  display: inline-block;
+  margin: 0 400px 0 40px;
+}
+
+.personal .personal-right-order .allOrder .myorder-id .myorder-id-pay {
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0a9ade;
+}
+
+.personal .personal-right-order .allOrder .myorder-id .myorder-cancel {
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #656565;
+  line-height: 42px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length {
+  width: 957px;
+  min-height: 335px;
+  margin-bottom: 15px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left {
+  display: inline-block;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 704px;
+  margin-left: 15px;
+  min-height: 234px;
+  border: 1px solid #f0f7ff;
+  border-right: none;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .shoppingList-number {
+  margin: 21px 0 0 17px;
+  width: 71px;
+  height: 71px;
+  display: inline-block;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .shoppingList-number img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .shoppingList-suggest {
+  width: 168px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+  margin: 36px 0 0 40px;
+  vertical-align: top;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .shoppingList-suggest p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .merchant {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  display: inline-block;
+  margin: 10px 79px 0 457px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingList .merchant-price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  display: inline-block;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow {
+  width: 704px;
+  margin-left: 15px;
+  min-height: 102px;
+  border: 1px solid #f0f7ff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: none;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 71px;
+  height: 71px;
+  margin: 14px 0 0 17px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-first {
+  vertical-align: top;
+  display: inline-block;
+  width: 168px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+  margin: 36px 0 0 40px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-first p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-last {
+  margin: 40px 0 40px 50px;
+  display: inline-block;
+  width: 44px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-left .shoppingRow .shoppingRow-price {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  margin: 40px 0 0 80px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-middle {
+  width: 100px;
+  vertical-align: top;
+  border-left: none;
+  min-height: 335px;
+  border: 1px solid #f0f7ff;
+  display: inline-block;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-middle p {
+  color: #555555;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 160px 0 0 29px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 337px;
+  width: 136px;
+  border: 1px solid #f0f7ff;
+  box-sizing: border-box;
+  padding-top: 133px;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right .shopping-right-yellow {
+  color: white;
+  background: #fba83d;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right .shopping-right-gray {
+  border: 1px solid #f0f7ff;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right .shopping-right-blue {
+  color: white;
+  background: #80d7ff;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right button {
+  width: 102px;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  border: 1px solid #f0f7ff;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  margin-bottom: 5px;
+  border-style: none;
+}
+
+.personal .personal-right-order .allOrder .shopping-length .shopping-right :focus {
+  outline: none;
+}
+
+.personal .personal-right-order .allOrder .allOrder-buttom {
+  margin: 30px 0 42px 0;
+  text-align: right;
+}
+
+.personal .personal-right-order .allOrder .allOrder-buttom button {
+  width: 60px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  border-style: none;
+  background: white;
+  border: 1px solid #d1d6df;
+  border-radius: 6px;
+  margin-right: 28px;
+}
+
+.personal .personal-right-order .allOrder .allOrder-buttom span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #019ae0;
+  line-height: 22px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-order .capacity {
+  font-size: 16px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .personal-right-order .shoppingList-price {
+  margin: 45px 0 0 80px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.personal .personal-right-order .order-details .order-number {
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+
+.personal .personal-right-order .order-details .order {
+  background-color: #fff;
+}
+
+.personal .personal-right-order .order-details .order .status {
+  padding: 45px 0;
+  text-align: center;
+}
+
+.personal .personal-right-order .order-details .order .status span:not(.arrow) {
+  font-size: 16px;
+  display: inline-block;
+  line-height: 28px;
+  text-align: center;
+  width: 99px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #84DA8A;
+  color: #fff;
+}
+
+.personal .personal-right-order .order-details .order .status .arrow {
+  color: #84DA8A;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  letter-spacing: 9px;
+}
+
+.personal .personal-right-order .order-details .order .status i {
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #84DA8A;
+  position: relative;
+  bottom: 1px;
+}
+
+.personal .personal-right-order .order-details .order .goods {
+  width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #F3F4F5;
+  border-left: 1px solid #F3F4F5;
+  border-right: 1px solid #F3F4F5;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-title {
+  font-size: 14px;
+  height: 54px;
+  background-color: #f0f7ff;
+  line-height: 54px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-title span:first-child {
+  padding: 0 39px 0 19px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-title span:last-child {
+  float: right;
+  padding-right: 26px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop {
+  border-bottom: 1px solid #f3f4f5;
+  position: relative;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left {
+  display: inline-block;
+  width: 491px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row {
+  height: 120px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .goods-img {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .goods-img img {
+  width: 71px;
+  height: 71px;
+  padding-top: 25px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .goods-detail {
+  width: 221px;
+  height: 120px;
+  font-size: 14px;
+  color: #555;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .goods-detail div:first-child {
+  margin-top: 35px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .goods-detail div:last-child {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-left .row .unit-price {
+  height: 120px;
+  line-height: 120px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-right {
+  vertical-align: top;
+  display: inline-block;
+  width: 469px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-right .shop-name {
+  width: 184px;
+  height: 100%;
+  line-height: 100%;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.personal .personal-right-order .order-details .order .goods .goods-shop .shop-right .shop-total {
+  width: 285px;
+  height: 100%;
+  line-height: 100%;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.personal .personal-right-order .order-details .order .total,
+.personal .personal-right-order .order-details .order .address,
+.personal .personal-right-order .order-details .order .mode {
+  width: 960px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-order .order-details .order .total {
+  margin: 15px 0;
+  padding-right: 10px;
+  text-align: right;
+  color: #333;
+}
+
+.personal .personal-right-order .order-details .order .total div {
+  font-size: 14px;
+  line-height: 42px;
+}
+
+.personal .personal-right-order .order-details .order .total div span {
+  display: inline-block;
+  width: 120px;
+}
+
+.personal .personal-right-order .order-details .order .total .total-money {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.personal .personal-right-order .order-details .order .address {
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 42px;
+  color: #555;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.personal .personal-right-order .order-details .order .mode {
+  padding: 10px 0;
+  line-height: 42px;
+  font-size: 14px;
+  padding-left: 10px;
+  color: #555;
+}
+
+.personal .personal-right-order .order-details .order .mode .logistics {
+  padding: 4px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #84DA8A;
+  border: 1px solid #84DA8A;
+  border-radius: 6px;
+}
+
+.personal .personal-right-card {
+  display: inline-block;
+  width: 986px;
+  padding: 0px 14px 26px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: visible;
+  font-size: 0;
+}
+
+.personal .personal-right-card .myOrder {
+  width: 986px;
+  min-height: 50px;
+  background: #fff;
+}
+
+.personal .personal-right-card .myOrder p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 50px;
+  margin: 0 20px 20px 20px;
+}
+
+.personal .personal-right-card .cardAll {
+  width: 986px;
+  padding: 0 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+}
+
+.personal .personal-right-card .cardAll .cardall-list {
+  padding: 20px 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-card .cardAll .cardall-list li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 22px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.personal .personal-right-card .cardAll .cardall-list .list-line::after {
+  content: '';
+  height: 100%;
+  margin: 0 15px;
+  border-right: 1px solid #e9ebef;
+  width: 1px;
+}
+
+.personal .personal-right-card .cardAll .cardall-list .colorBlue {
+  color: #0a9ade;
+}
+
+.personal .personal-right-card .cardAll .information {
+  text-align: right;
+}
+
+.personal .personal-right-card .cardAll .information .question-style {
+  margin-left: 400px;
+  display: inline-block;
+  color: white;
+  background: #FFAE12;
+  font-size: 1px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.personal .personal-right-card .cardAll .information .coupon {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 42px;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos {
+  padding-left: 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 946px;
+  display: inline-block;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .photos-left {
+  vertical-align: top;
+  margin: 0 15px 10px 0;
+  display: inline-block;
+  width: 280px;
+  height: 180px;
+  background: url(/images/sale1.png?8587b9dba78ac7a0ce454543617b68c5) no-repeat;
+  background-size: 100% 100%;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .photos-left .left-one {
+  margin: 35px 5px 20px 5px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff17f;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .photos-right {
+  vertical-align: top;
+  margin: 0 15px 10px 0;
+  display: inline-block;
+  width: 280px;
+  height: 180px;
+  background: url(/images/sale2.png?04bafe0464e979d3abb1095304f0860c) no-repeat;
+  background-size: 100% 100%;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .photos-right .left-two {
+  display: inline-block;
+  margin: 35px 5px 20px 5px;
+  font-size: 48px;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .photos-right span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .sales {
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos span,
+.personal .personal-right-card .cardAll .cardall-photos p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos p {
+  margin: 10px 0 0 21px;
+  letter-spacing: 1px;
+}
+
+.personal .personal-right-card .cardAll .cardall-photos .unusable {
+  display: inline-block;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: white !important;
+}
+
+.personal .personal-right-card .refundOne,
+.personal .personal-right-card .refundTwo {
+  width: 960px;
+  min-height: 78px;
+  margin-top: 20px;
+  border: 1px solid #f3f4f5;
+  padding: 8px 15px 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-card .refundOne .delete,
+.personal .personal-right-card .refundTwo .delete {
+  float: right;
+  cursor: pointer;
+}
+
+.personal .personal-right-card .refundOne ul,
+.personal .personal-right-card .refundTwo ul {
+  border-bottom: 1px solid #f3f4f5;
+}
+
+.personal .personal-right-card .refundOne ul li,
+.personal .personal-right-card .refundTwo ul li {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 300;
+  color: #999999;
+  line-height: 22px;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+.personal .personal-right-card .refundOne ul .reject,
+.personal .personal-right-card .refundTwo ul .reject {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .personal-right-card .refundOne p,
+.personal .personal-right-card .refundTwo p {
+  padding-top: 11px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .pop {
+  min-width: 1000px !important;
+}
+
+.personal .pop .el-dialog__body {
+  padding: 15px 0;
+}
+
+.personal .pop .titleTop p {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.personal .pop .titleTop .topClose {
+  vertical-align: top;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 22px;
+  display: inline-block;
+  margin-left: 170px;
+}
+
+.personal .pop .titleTop .off {
+  padding-left: 690px;
+}
+
+.personal .pop .pop-time {
+  margin-top: 10px;
+  border-top: 1px solid #f3f4f5;
+}
+
+.personal .pop .pop-time .time-suggest {
+  margin-top: 20px;
+  margin-left: 188px;
+}
+
+.personal .pop .pop-time .time-suggest .time-top {
+  font-size: 16px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 22px;
+}
+
+.personal .pop .pop-time .time-suggest p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ff9952;
+  line-height: 22px;
+}
+
+.personal .personal-right-take,
+.personal .personal-right-address {
+  display: inline-block;
+  background: #fff;
+  width: 986px;
+  min-height: 805px;
+  font-size: 0;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-take .title,
+.personal .personal-right-address .title {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.personal .personal-right-take .middle,
+.personal .personal-right-address .middle {
+  width: 970px;
+  min-height: 690px;
+  margin-right: -20px;
+}
+
+.personal .personal-right-take .middle::after,
+.personal .personal-right-address .middle::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.personal .personal-right-take .middle .address,
+.personal .personal-right-address .middle .address {
+  width: 280px;
+  min-height: 125px;
+  padding: 10px 10px 5px 10px;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+  float: left;
+  margin: 10px 20px 5px 0;
+}
+
+.personal .personal-right-take .middle .address:last-child,
+.personal .personal-right-address .middle .address:last-child {
+  margin-bottom: 40px;
+}
+
+.personal .personal-right-take .middle .address p,
+.personal .personal-right-address .middle .address p {
+  margin: 0;
+  padding: 5px;
+  line-height: 21px;
+  color: #999;
+  font-size: 14px;
+}
+
+.personal .personal-right-take .middle .address .user,
+.personal .personal-right-address .middle .address .user {
+  font-size: 18px;
+  color: #333;
+}
+
+.personal .personal-right-take .middle .address .user .default,
+.personal .personal-right-address .middle .address .user .default {
+  color: #999;
+  float: right;
+  font-size: 14px;
+}
+
+.personal .personal-right-take .middle .address .operate,
+.personal .personal-right-address .middle .address .operate {
+  text-align: right;
+  color: #019ae0;
+}
+
+.personal .personal-right-take .middle .address .operate span,
+.personal .personal-right-address .middle .address .operate span {
+  display: inline-block;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.personal .personal-right-take .add-address div,
+.personal .personal-right-address .add-address div {
+  font-size: 14px;
+  color: #333;
+  padding: 5px;
+  text-align: center;
+}
+
+.personal .personal-right-take .add-address div:first-child,
+.personal .personal-right-address .add-address div:first-child {
+  margin-top: 20px;
+  height: 40px;
+}
+
+.personal .personal-right-take .add-address div:last-child,
+.personal .personal-right-address .add-address div:last-child {
+  min-height: 21px;
+  line-height: 21px;
+}
+
+.personal .personal-right-take .take-bottom,
+.personal .personal-right-address .take-bottom {
+  text-align: right;
+}
+
+.personal .personal-right-address {
+  min-height: 350px !important;
+}
+
+.personal .personal-right-address .reverse {
+  min-height: 350px !important;
+}
+
+.personal .personal-right-bill {
+  display: inline-block;
+  background: #fff;
+  width: 986px;
+  min-height: 805px;
+  font-size: 0;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-bill .bill-top {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.personal .personal-right-bill .bill-date {
+  display: inline-block;
+  margin: 20px 0 40px 0;
+}
+
+.personal .personal-right-bill .bill-date .data-input {
+  width: 230px;
+}
+
+.personal .personal-right-bill .bill-input {
+  display: inline-block;
+  margin-left: 400px;
+}
+
+.personal .personal-right-bill .bill-input .input-length {
+  width: 280px !important;
+}
+
+.personal .personal-right-bill .bill-input .el-input-group__append {
+  background-color: #019ae0;
+  color: #fff;
+}
+
+.personal .personal-right-bill .bill-middle {
+  min-height: 600px !important;
+}
+
+.personal .personal-right-bill .bill-middle .orderForm {
+  color: #0099ff;
+  font-size: 12px;
+  line-height: 1;
+  border-style: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.personal .personal-right-bill .bill-middle .bill-list {
+  color: #1f2e3d;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.personal .personal-right-bill .bill-bottom {
+  text-align: right;
+}
+
+.personal .personal-right-refund {
+  display: inline-block;
+  background: #fff;
+  width: 986px;
+  min-height: 2266px;
+  font-size: 0;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-refund .refund-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.personal .personal-right-refund .refund-main {
+  min-height: 2077px !important;
+}
+
+.personal .personal-right-refund .refund-main .refund-top {
+  width: 943px;
+  min-height: 275px;
+  border: 1px solid #d1d1d1;
+  margin: 0 0 10px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .top-num {
+  border-bottom: 1px solid #d1d1d1;
+  background: #f2f6ff;
+  padding: 15px 15px;
+  min-height: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .top-num p,
+.personal .personal-right-refund .refund-main .refund-top .top-num span {
+  font-size: 14px;
+  color: #333;
+  vertical-align: top;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .top-num .top-success {
+  vertical-align: top;
+  font-size: 16px;
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .top-num .price {
+  margin-top: 12px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left {
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .left-title {
+  display: inline-block;
+  width: 600px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .title-list {
+  width: 600px;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 600px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .title-list .list-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .title-list .list-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .title-list .list-price {
+  margin-left: 95px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .title-list .weight {
+  margin-top: 15px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left li {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-left .storeTotal {
+  width: 600px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-right {
+  vertical-align: top;
+  width: 300px;
+  display: inline-block;
+}
+
+.personal .personal-right-refund .refund-main .refund-top .refund-form .refund-right button {
+  vertical-align: top;
+  background-color: #fff;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 0;
+  width: 130px;
+  margin: 0 0 10px 130px;
+}
+
+.personal .personal-right-refund .refund-bottom {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.personal .personal-right-refund :focus {
+  outline: none;
+}
+
+.personal .personal-right-refund button {
+  cursor: pointer;
+}
+
+.personal .personal-right-refund .refuse-detail > .title {
+  font-size: 14px;
+  font-weight: 700;
+  height: 21px;
+}
+
+.personal .personal-right-refund .refuse-detail .progress {
+  font-size: 16px;
+  padding: 20px;
+  width: 774px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #dfdfdf;
+}
+
+.personal .personal-right-refund .refuse-detail .agreement {
+  padding: 10px 0;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.personal .personal-right-refund .refuse-detail .agreement p {
+  margin: 5px 0;
+  height: 21px;
+  line-height: 21px;
+}
+
+.personal .personal-right-refund .refuse-detail .agreement p span {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.personal .personal-right-refund .refuse-detail .agreement p span:first-child {
+  width: 346px;
+  padding: 0 15px;
+}
+
+.personal .personal-right-refund .refuse-detail .agreement p span:last-child {
+  width: 530px;
+  padding: 0 15px;
+  color: #999;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods {
+  width: 905px;
+  margin: 0 auto;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods .shop-name {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 20px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li {
+  border-top: 1px solid #e0dfe2;
+  height: 121px;
+  padding: 5px 0;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li:last-child {
+  border-bottom: 1px solid #e0dfe2;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li > div {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 121px;
+  font-size: 14px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .goods-img {
+  width: 155px;
+  text-align: center;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .goods-img img {
+  padding-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .goods-detail {
+  color: #999;
+  padding-top: 10px;
+  width: 320px;
+  line-height: 21px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .unit-price,
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .total-price {
+  line-height: 121px;
+  width: 215px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods ul li .total-price {
+  color: red;
+}
+
+.personal .personal-right-refund .refuse-detail .return-goods .goods .shop-total {
+  padding: 20px;
+  line-height: 21px;
+  font-size: 14px;
+  border-bottom: 1px solid #e0dfe2;
+}
+
+.personal .personal-right-refund .refuse-detail .return-reason {
+  font-size: 14px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.personal .personal-right-refund .refuse-detail .return-reason .title {
+  line-height: 21px;
+  margin: 20px 0;
+}
+
+.personal .personal-right-refund .refuse-detail .return-reason p {
+  line-height: 21px;
+  padding: 5px 15px;
+  margin: 0;
+}
+
+.personal .personal-right-refund .refuse-detail .return-reason p > span:last-child {
+  color: #999;
+  padding-left: 10px;
+}
+
+.personal .personal-right-refund .refuse-detail .return-reason p > span:last-child span {
+  font-size: 16px;
+}
+
+.personal .personal-right-refund .refuse-detail .explain div {
+  padding: 20px 0 30px 10px;
+  font-size: 14px;
+}
+
+.personal .personal-right-refund .refuse-detail .explain div p {
+  line-height: 21px;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.personal .personal-right-refund .refuse-detail .explain div p span:last-child {
+  color: #999;
+  padding-left: 10px;
+}
+
+.personal a {
+  text-decoration: none;
+}
+
+.personal .personal-right-add {
+  display: inline-block;
+  background: #fff;
+  width: 986px;
+  min-height: 805px;
+  font-size: 0;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal .personal-right-add .add-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.evluate {
+  background-color: #fff;
+  width: 905px;
+  padding: 20px;
+}
+
+.evluate > p {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 21px;
+}
+
+.evluate .shop .shop-name {
+  font-size: 18px;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.evluate .shop .row {
+  font-size: 0;
+}
+
+.evluate .shop .row .col {
+  display: inline-block;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.evluate .shop .row .col-left {
+  width: 226px;
+  padding: 50px 15px 0;
+  text-align: center;
+}
+
+.evluate .shop .row .col-left .goods-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.evluate .shop .row .col-left .goods-name {
+  padding-top: 10px;
+}
+
+.evluate .shop .row .col-left .goods-price {
+  padding-top: 5px;
+  color: red;
+  font-size: 16px;
+}
+
+.evluate .shop .row .col-right {
+  width: 679px;
+}
+
+.evluate .shop .row .col-right .evluate-upload {
+  margin: 10px 0;
+}
+
+.evluate .shop .row .col-right .evluate-upload button {
+  padding: 5px 30px;
+}
+
+.evluate .shop .row .col-right .rate {
+  margin-bottom: 10px;
+}
+
+.evluate .shop .row .col-right textarea {
+  width: 100%;
+  padding: 10px 15px;
+  height: 120px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: 1px solid #d1d1d1;
+  resize: none;
+}
+
+.evluate .submit {
+  text-align: right;
+}
+
+.evluate .submit .submit-btn {
+  display: inline-block;
+  width: 140px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ffc300;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 30px 10px;
+}
+
