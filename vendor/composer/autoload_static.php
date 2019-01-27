@@ -27,6 +27,10 @@ class ComposerStaticInit99ec81d79a2e501227993d048a5c1a96
         array (
             'League\\Csv\\' => 11,
         ),
+        'I' => 
+        array (
+            'InterfaceTest\\' => 14,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -47,6 +51,10 @@ class ComposerStaticInit99ec81d79a2e501227993d048a5c1a96
         'League\\Csv\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/csv/src',
+        ),
+        'InterfaceTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/interface-test',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

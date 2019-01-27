@@ -20,7 +20,8 @@
     "suggest": {},
     "autoload": {
         "psr-4": {
-            "Tomtiddler\\Test\\": "tomtiddler/test/src"
+            "Tomtiddler\\Test\\": "tomtiddler/test/src",
+            "InterfaceTest\\": "interface-test/"
         }
     }
 }
